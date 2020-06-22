@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     tools:context=".launch">
 
     <TextView
@@ -30,7 +31,7 @@
         android:textSize="18sp" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/contraid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/textView2"
@@ -38,30 +39,30 @@
         android:layout_marginTop="275dp"
         android:ems="10"
         android:fontFamily="sans-serif-condensed"
-        android:hint="Phone Number"
+        android:hint="Your ContraID"
         android:inputType="phone" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText"
-        android:layout_alignEnd="@+id/editText"
+        android:layout_below="@+id/contraid"
+        android:layout_alignEnd="@+id/contraid"
         android:ems="10"
         android:fontFamily="sans-serif-condensed"
         android:hint="Password"
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/signin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/password"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="128dp"
-        android:fontFamily="sans-serif-condensed"
         android:background="@drawable/button"
+        android:fontFamily="sans-serif-condensed"
         android:text="Sign In" />
 
     <TextView
@@ -77,10 +78,10 @@
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/registertext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/button"
+        android:layout_alignStart="@+id/signin"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="-14dp"
         android:layout_marginBottom="66dp"
@@ -88,4 +89,13 @@
         android:text="Register Here!"
         android:textColor="@color/design_default_color_secondary_variant"
         android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="237dp"
+        android:layout_height="115dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="136dp"
+        app:srcCompat="@mipmap/ic_logo" />
 </RelativeLayout>

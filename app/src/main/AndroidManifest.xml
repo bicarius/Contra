@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".register" />
         <activity android:name=".dashboard" />
-        <activity android:name=".clientmode"></activity>
+        <activity android:name=".clientmode" />
+        <activity android:name=".transition"></activity>
     </application>
 
 </manifest>

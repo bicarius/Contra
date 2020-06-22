@@ -57,9 +57,9 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
-                                      <entry key="foregroundImage" value="F:\icons\logoutcontra.png" />
-                                      <entry key="foregroundLayerName" value="ic_logout_fore" />
-                                      <entry key="outputName" value="ic_logout" />
+                                      <entry key="foregroundImage" value="F:\icons\logo.png" />
+                                      <entry key="foregroundLayerName" value="ic_logo_fore" />
+                                      <entry key="outputName" value="ic_logo" />
                                     </map>
                                   </option>
                                 </PersistentState>
