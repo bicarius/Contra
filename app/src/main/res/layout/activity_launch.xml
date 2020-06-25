@@ -85,6 +85,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="-14dp"
         android:layout_marginBottom="66dp"
+        android:clickable="true"
         android:fontFamily="sans-serif-condensed"
         android:text="Register Here!"
         android:textColor="@color/design_default_color_secondary_variant"

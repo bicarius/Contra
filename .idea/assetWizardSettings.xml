@@ -57,9 +57,9 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
-                                      <entry key="foregroundImage" value="F:\icons\logo.png" />
-                                      <entry key="foregroundLayerName" value="ic_logo_fore" />
-                                      <entry key="outputName" value="ic_logo" />
+                                      <entry key="foregroundImage" value="F:\icons\personal.png" />
+                                      <entry key="foregroundLayerName" value="ic_personal_fore" />
+                                      <entry key="outputName" value="ic_personal" />
                                     </map>
                                   </option>
                                 </PersistentState>

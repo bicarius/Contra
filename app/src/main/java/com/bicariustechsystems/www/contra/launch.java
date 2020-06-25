@@ -46,6 +46,13 @@ public class launch extends AppCompatActivity {
         Register=findViewById(R.id.registertext);
         // Volley REQUEST QUEUE
         requestQueue = Volley.newRequestQueue(launch.this);
+        //On text Click
+        Register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Switch intent
+            }
+        });
         // On ButtonClick
         SignIn.setOnClickListener(new View.OnClickListener() {
             @Override
